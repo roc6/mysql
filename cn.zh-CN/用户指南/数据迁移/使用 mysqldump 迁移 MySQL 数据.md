@@ -93,7 +93,7 @@
 6.  登录 ECS，将数据文件和存储过程文件导入到目标 RDS 中。
 
     ```
-    mysql -h intranet4example.mysql.rds.aliyuncs.com –u userName -p dbName < /tmp/dbName.sql
+    mysql -h intranet4example.mysql.rds.aliyuncs.com -u userName -p dbName < /tmp/dbName.sql
     mysql -h intranet4example.mysql.rds.aliyuncs.com -u userName -p dbName < /tmp/triggerProcedure.sql
     ```
 
